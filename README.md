@@ -1,1 +1,1 @@
-Página das minhas Redes Sociais
+Página de referência das minhas Redes Sociais.
