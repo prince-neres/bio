@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', serif;
+  letter-spacing: 3px; 
+  text-shadow:-2px -2px 0 cyan, 2px 2px 0 red;
+  color: white;
+  line-height: 30px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  z-index: 10;
+  position: absolute;
+  width: 50%;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  box-shadow: -5px -5px 0 cyan, 5px 5px 0 red;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+}
+
+.buttons {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 45%;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button > a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+button > img {
+  width: 30px;
+  padding-right: 10px;
+}
+
+@media (max-width: 768px){
+  button {
+    width: 80%;
+  }
+}
+
+@media (max-width: 425px){
+  .card {
+    width: 75%;
+  }
+}
