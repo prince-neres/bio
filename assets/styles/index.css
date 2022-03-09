@@ -55,6 +55,7 @@ button {
 button > a {
   font-size: 30px;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 button > img {
