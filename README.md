@@ -1,9 +1,11 @@
-<<<<<<< HEAD
-<h2 align="center">Bio</h2>
+<h2 align="center">Bio</h2>  
+
+### Página de referência das minhas Redes Sociais.
 
 <div align="center">
   <img src="assets/images/bio.png" >
-</div>
+</div> 
+
 
 ## Tecnologias usadas
 * HTML
@@ -15,6 +17,4 @@
 **1.** Acesse o site <https://bio-prince-neres.vercel.app/>  
 **2.** Faça o download em ZIP do arquivo, extraia e abra o arquivo `index.html` com o seu navegador.
 
-=======
-Página de referência das minhas Redes Sociais.
->>>>>>> f01f434516affbc056a18316f33582fbc266fc83
+
